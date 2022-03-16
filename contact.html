@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>Pablo Ré - Python Full-Stack Developer</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+
+	<!--================ Start Header Area =================-->
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="index.html"><img src="img/PYTHON.jfif" style="width: 50px !important;" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav justify-content-end">
+							<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="about.html">Sobre mi</a></li>
+							<li class="nav-item"><a class="nav-link" href="services.html">Servicios</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#soporte">Soporte</a></li>
+							<!-- <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+							<li class="nav-item submenu dropdown">
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								 aria-expanded="false">Pages</a>
+								<ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="portfolio-details.html">Portfolio Details</a></li>
+								</ul>
+							</li>
+							<li class="nav-item submenu dropdown">
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								 aria-expanded="false">Blog</a>
+								<ul class="dropdown-menu">
+									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
+								</ul>
+							</li> -->
+							<li class="nav-item active"><a class="nav-link" href="contact.html">Contacto</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--================ End Header Area =================-->
+
+    <!--================ Start Banner Area =================-->
+    <section class="banner_area">
+        <div class="banner_inner d-flex align-items-center">
+            <div class="container">
+                <div class="banner_content text-center">
+                    <h2>Contacto</h2>
+                    <div class="page_link">
+                        <a href="index.html">Home</a>
+                        <a href="contact.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================ End Banner Area =================-->
+    
+    <!--================Contact Area =================-->
+    <section class="contact_area section_gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="contact_info">
+                        <div class="info_item">
+                            <i class="lnr lnr-home"></i>
+                            <h6>San Nicolás,(Bs. As.) Argentina</h6>
+                            <p>Gerónimo Costa 34 bis</p>
+                        </div>
+                        <div class="info_item">
+                            <i class="lnr lnr-phone-handset"></i>
+                            <h6><a href="#">+54 (9) 336 4537093</a></h6>
+                            <p>Lun a Vie 9am a 6 pm</p>
+                        </div>
+                        <div class="info_item">
+                            <i class="lnr lnr-envelope"></i>
+                            <h6><a href="#">pablogustavore@gmail.com</a></h6>
+                            <p>Envíe su consulta en cualquier momento!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <form class="row contact_form" action="http://mafelectric.dyndns.info:5000/enviar" method="post" id="contactForm" novalidate="novalidate">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Ingrese su Nombre">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Ingrese su email ">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Ingrese el Asunto">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="web" name="web" hidden>
+                                <input type="text" class="form-control" id="destinatario" name="destinatario" value='pablogustavore@gmail.com' hidden>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" id="message" rows="1" placeholder="Deje su Mensaje"></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-12 text-right">
+                            <button type="submit" value="submit" class="primary_btn" onclick="enviar2()">
+                                <span>Enviar Mensaje</span>
+                            </button>
+                        </div>
+                    </form> 
+                </div>
+            </div>
+             
+            <!-- 
+            <div id="mapBox" class="mapBox" 
+                data-lat="-33.31551123952732" 
+                data-lon="-60.22989790179742" 
+                data-zoom="13" 
+                data-info="Costa 34, San Nicolás de Los Arroyos, Provincia de Buenos Aires, Argentina"
+                data-mlat="-33.31551123952732"
+                data-mlon="-60.22989790179742" 
+            </div>
+            -->
+            <div class="container" style="overflow: hidden; width: 100%; height: 440px; padding-top:10px">
+                <iframe class="responsive-iframe" style="width: 100%; height: 100%;" src="https://www.google.com/maps/d/embed?mid=1pR7OfDndYo3mdS5spdccxN6SNJ5xQG3W" ></iframe>
+            </div>  
+           
+            
+        </div>
+    </section>
+    <!--================Contact Area =================-->
+    
+    <!--================ Start Newsletter Area =================-->
+	<section class="newsletter_area" id="soporte">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-12">
+					<div class="subscription_box text-center">
+						<h2 class="text-uppercase text-white">Soporte Remoto a Clientes.</h2>
+						<p class="text-white">
+							Brindo un servicio de soporte y mantenimento remoto libre de instalación y configuración a traves de las siguientes tecnologías. 
+						</p>
+						
+						<div class="subcribe-form" id="mc_embed_signup">
+							<form target="_blank" novalidate="true" action="#" method="get" class="subscription relative">
+								<a class="primary-btn hover d-inline" type="button" href="https://download.teamviewer.com/download/version_12x/TeamViewerQS.exe" ><img src="img/teamviewer.png" style="width:200px;"  alt="TeamViewer"></a>
+								
+								<div style="position: absolute; left: -5000px;">
+									<a href="https://download.anydesk.com/AnyDesk.exe?_ga=2.132153098.507602551.1638004162-1094185789.1596791578" >AnyDesk</a> 
+								</div>
+								<a class="primary-btn hover d-inline" type="button" href="https://download.anydesk.com/AnyDesk.exe?_ga=2.132153098.507602551.1638004162-1094185789.1596791578"><img src="img/anydesk.png" style="width:200px; height: 55px;"  alt="AnyDesk"></a> 
+								
+								<div class="info"></div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ End Newsletter Area =================-->
+    
+ <!--================Footer Area =================-->
+ <footer class="footer_area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="footer_top flex-column">
+                    <div class="footer_logo">
+                        <a href="#">
+                            <img src="img/PYTHON.jfif" style="width: 50px !important;" alt="">
+                        </a>
+                        <h4>Follow Me</h4>
+                    </div>
+                    <div class="footer_social">
+                        <a href="http://linkedin.com/in/pablo-gustavo-ré-311501195"><i class="fa fa-linkedin"></i></a>
+                        <!-- <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-behance"></i></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row footer_bottom justify-content-center">
+            <p class="col-lg-8 col-sm-12 footer-text">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright 2021 All rights reserved | Pablo Gustavo Ré 
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        </div>
+    </div>
+</footer>
+<!--================End Footer Area =================-->
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope-min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!--gmaps Js-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script src="js/gmaps.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script type="text/javascript">
+        let url = window.location.href
+        $("#web").val(url)  
+        function enviar2(){
+            let url = window.location.href
+            $("#web").val(url) 
+            console.log("web:",$("#web").val() )
+        }
+        
+        
+        function enviar(){
+            let datos = {
+                "to": 'pablogustavore@gmail.com',
+                "from": $("#from").val(),
+                "name": $("#name").val(),
+                "subject" : $("#subject").val(),
+                "message" : $("#message").val()
+            }
+        
+            $.ajax({
+                url: "http://mafelectric.dyndns.info:5000/enviar",
+                type: "POST",
+                data: datos,
+                success: function(data) {
+                    if (data.type == 'ok') {
+                        alert('CORREO ENVIADO CORRECTAMENTE')
+                        location.reload()
+                    }
+                },
+                error: function() {
+                    alert('ERROR AL ENVIAR CORREO')
+                }
+            });
+        }
+        </script> 
+</body>
+
+</html>
+
+
