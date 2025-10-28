@@ -14,7 +14,7 @@
        "20292618310": {
          "razon_social": "Carnave Hernan",
          "activo": true,
-         "mora": false,
+         "mora": true,
          "email": "cliente@ejemplo.com",
          "telefono": "341-1234567",
          "fecha_vencimiento": "2025-11-30",
