@@ -4,7 +4,7 @@
      "clientes": {
        "27333429433": {
          "razon_social": "Carnave Hernan",
-         "activo": true,
+         "activo": false,
          "mora": false,
          "email": "cliente@ejemplo.com",
          "telefono": "341-1234567",
