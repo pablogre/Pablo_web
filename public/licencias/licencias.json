@@ -13,7 +13,7 @@
        },
        "20292618310": {
          "razon_social": "Carnave Hernan",
-         "activo": false,
+         "activo": true,
          "mora": true,
          "email": "cliente@ejemplo.com",
          "telefono": "341-1234567",
