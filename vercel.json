@@ -1,21 +1,21 @@
 {
-     "headers": [
-       {
-         "source": "/licencias/licencias.json",
-         "headers": [
-           {
-             "key": "Access-Control-Allow-Origin",
-             "value": "*"
-           },
-           {
-             "key": "Content-Type",
-             "value": "application/json"
-           },
-           {
-             "key": "Cache-Control",
-             "value": "public, max-age=300"
-           }
-         ]
-       }
-     ]
-   }
+  "headers": [
+    {
+      "source": "/licencias.json",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300"
+        }
+      ]
+    }
+  ]
+}
