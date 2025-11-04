@@ -1,0 +1,24 @@
+{
+     "version": "1.0",
+     "ultima_actualizacion": "2025-10-28",
+     "clientes": {
+       "27333429433": {
+         "razon_social": "Carnave Noelia",
+         "activo": true,
+         "mora": false,
+         "email": "cliente@ejemplo.com",
+         "telefono": "341-1234567",
+         "fecha_vencimiento": "2025-11-30",
+         "observaciones": "Cliente al día"
+       },
+       "20292618310": {
+         "razon_social": "Carnave Hernan",
+         "activo": true,
+         "mora": false,
+         "email": "cliente@ejemplo.com",
+         "telefono": "341-1234567",
+         "fecha_vencimiento": "2025-11-30",
+         "observaciones": "Cliente al día"
+       }   
+     }
+   }
